@@ -1,0 +1,20 @@
+.column {
+  width: 5rem;
+  float: left;
+  border: 1px solid black;
+}
+
+.square {
+  width: 5rem;
+  height: 5rem;
+}
+
+#title {
+  color: purple;
+}
+
+body {
+  background-color: black;
+  margin: 0 auto;
+}
+
