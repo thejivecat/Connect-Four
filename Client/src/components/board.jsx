@@ -1,15 +1,15 @@
 import Column from './column.jsx'
 
-function Board ({handler}) {
+function Board ({updateColumns, columns}) {
   return (
     <div>
-      <Column handler={handler} x={0}/>
-      <Column handler={handler} x={1}/>
-      <Column handler={handler} x={2}/>
-      <Column handler={handler} x={3}/>
-      <Column handler={handler} x={4}/>
-      <Column handler={handler} x={5}/>
-      <Column handler={handler} x={6}/>
+      <Column updateColumns={updateColumns} columns={columns[0]} x={0}/>
+      <Column updateColumns={updateColumns} columns={columns[1]} x={1}/>
+      <Column updateColumns={updateColumns} columns={columns[2]} x={2}/>
+      <Column updateColumns={updateColumns} columns={columns[3]} x={3}/>
+      <Column updateColumns={updateColumns} columns={columns[4]} x={4}/>
+      <Column updateColumns={updateColumns} columns={columns[5]} x={5}/>
+      <Column updateColumns={updateColumns} columns={columns[6]} x={6}/>
     </div>
   )
 }
